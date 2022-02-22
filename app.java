@@ -26,4 +26,10 @@ class app{
 		System.out.print("dOldal: ");
 		int dOldal = sc.nextInt();
 		
-		
+		double terulet = (aOldal+cOldal)/(4*(aOldal-cOldal))
+		 * Math.sqrt((aOldal+bOldal-cOldal+dOldal)*(aOldal-bOldal-cOldal+dOldal)
+		 *(aOldal+bOldal-cOldal-dOldal)*((-aOldal)+bOldal+cOldal+dOldal));
+		 
+		 System.out.println("A trapez terulete: " + terulet);
+	}
+}
